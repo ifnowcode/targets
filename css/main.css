@@ -54,10 +54,21 @@ p {
     white-space: nowrap;
 }
 
+#info {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+  color: #fff;
+}
+
 #status {
 	position: absolute;
 	bottom: 10px;
   left: 10px;
+  color: #fff;
 }
 
 #mute {
@@ -75,13 +86,4 @@ p {
     p {
         font-size: 4vw;
     }
-}
-
-#info {
-	position: absolute;
-	top: 10px;
-	width: 100%;
-	text-align: center;
-	z-index: 100;
-	display:block;
 }
